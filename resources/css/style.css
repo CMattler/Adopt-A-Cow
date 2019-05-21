@@ -60,7 +60,8 @@ h1 {
 .navbar-static-top {
   margin: 2rem 2rem 0rem 2rem;
   border-bottom: 0px solid white;
-  box-shadow: .25rem .25rem .125rem rgba(0, 0, 0, .5);
+  color: white;
+  background-color: white;
 }
 
 .navbar-brand img {
@@ -139,6 +140,17 @@ h1 {
 .upper-nav-item a:hover {
   color: white;
   text-decoration: none;
+}
+
+/*aoc*/
+.aoc {
+  background-image: url(../images/Final-logo.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20rem 0rem 20rem 0rem;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*Carousel*/
